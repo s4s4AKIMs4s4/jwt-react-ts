@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import {Input, Button} from 'antd';
 
 
 export const MainLoyoutContainer = styled.div`

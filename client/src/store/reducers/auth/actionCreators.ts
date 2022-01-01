@@ -3,7 +3,6 @@ import {IActionAuth,IActionLogin,IActionLoading,IActionError} from './types'
 import {AppDispatch} from '../../index'
 import {IUser} from '../../../models/IUser'
 import AuthService from '../../../services/AuthService'
-import { act } from '@testing-library/react'
 import {AuthResponse} from "../../../models/response/AuthResponse";
 import axios from 'axios';
 import {API_URL} from "../../../http";

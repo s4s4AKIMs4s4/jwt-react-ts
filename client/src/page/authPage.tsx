@@ -5,7 +5,6 @@ import UserService from "../services/UserService";
 import {useTypedSelector} from '../hooks/typedUseSelector'
 import {useActions} from '../hooks/useActions'
 import {ButtonElemet} from '../components/ButtonElemet'
-import {Input, Button} from 'antd';
 import UserPage from './userPage'
 import {MainLoyoutContainer,GetUsersButton,MainLoyoutWrapper} from './StyledPageElements/aythPageLoyout'
 
